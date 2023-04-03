@@ -6,7 +6,7 @@ protocol TestingImageDataSource: AnyObject {
     func nextSquareAndFullImage() -> CGImage?
 }
 
-class ScanBaseViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate,
+public class ScanBaseViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate,
     AfterPermissions, OcrMainLoopDelegate
 {
 
