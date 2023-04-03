@@ -64,7 +64,7 @@ protocol SimpleScanDelegate: AnyObject {
     )
 }
 
-class SimpleScanViewController: ScanBaseViewController {
+public class SimpleScanViewController: ScanBaseViewController {
 
     // used by ScanBase
     var previewView: PreviewView = PreviewView()
